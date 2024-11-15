@@ -1,0 +1,10 @@
+
+    /* Firebase and Login Related Styles */
+    #google-signin-button {
+        background-color: #4285F4;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
