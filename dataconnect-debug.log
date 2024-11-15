@@ -1,0 +1,10 @@
+I1115 20:56:44.117998   18792 load.go:37] Reloading schema and connectors...
+I1115 20:56:44.127355   18792 control.go:45] [engine.Service /emulator/zizo-ecomerce bb71] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1115 20:56:44.133795   18792 control.go:73] [engine.Service /emulator/zizo-ecomerce bb71] UpdateConnector(default): done sources: connector\queries.gql [1855B] connector\mutations.gql [1163B] 
+I1115 20:56:44.147843   18792 collector.go:107] schema extensions wrote into "C:\\Users\\ahmed\\Downloads\\Compressed\\astronomy_club_project\\notion-clone-master\\asrtra4\\zizo-ecomerce\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [65742B] 
+I1115 20:56:44.147843   18792 load.go:115] Finished reloading
+I1115 20:56:44.148846   18792 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1115 20:56:44.149854   18792 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1115 20:56:45.407363   18792 control.go:45] [engine.Service /emulator/zizo-ecomerce 4ffb] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1115 20:56:45.407363   18792 control.go:73] [engine.Service /emulator/zizo-ecomerce 4ffb] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
