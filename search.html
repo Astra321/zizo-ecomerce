@@ -1,0 +1,46 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechZone - Search Products</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <img src="images/logo.png" alt="TechZone Logo" class="logo">
+            <h1>Search Products</h1>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contents.html">Categories</a></li>
+                <li><a href="search.html">Search Products</a></li>
+                <li><a href="basket.html">Shopping Basket</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- Search Section -->
+        <main>
+            <section id="search">
+                <h2>Find What You Need</h2>
+                <input type="text" id="search-box" placeholder="Enter product name...">
+                <button onclick="searchProducts()">Search</button>
+                <div id="search-results">
+                    <!-- Search results will be displayed here -->
+                </div>
+            </section>
+        </main>
+
+        <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+    </html>
+    

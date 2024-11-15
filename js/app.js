@@ -2,7 +2,6 @@
     // Firebase Initialization
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
     import { getAuth, signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";
-    import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js";
 
     const firebaseConfig = {
         apiKey: "YOUR_API_KEY",
@@ -15,7 +14,6 @@
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth();
-    const db = getFirestore();
 
     // Google Sign-In Functionality
     document.getElementById("google-signin-button").addEventListener("click", () => {
@@ -27,7 +25,7 @@
             window.location.href = "contents.html";
         })
         .catch((error) => {
-            console.error("Sign-in error:", error.message);
+            console.error("Error signing in:", error.message);
         });
     });
     

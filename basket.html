@@ -1,0 +1,46 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechZone - Shopping Basket</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <img src="images/logo.png" alt="TechZone Logo" class="logo">
+            <h1>Your Shopping Basket</h1>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contents.html">Categories</a></li>
+                <li><a href="search.html">Search Products</a></li>
+                <li><a href="basket.html">Shopping Basket</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- Basket Section -->
+        <main>
+            <section id="basket">
+                <h2>Items in Your Basket</h2>
+                <div id="basket-items">
+                    <!-- List of items in the basket will be displayed here -->
+                </div>
+                <p id="total-price">Total Price: $0.00</p>
+                <button onclick="proceedToCheckout()">Proceed to Checkout</button>
+            </section>
+        </main>
+
+        <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+    </html>
+    
